@@ -50,6 +50,7 @@ nav {
 img {
     width: 100%;
     max-height: 120px;
+    display: block;
 }
   
 .botones {
@@ -111,5 +112,19 @@ button:hover {
     margin: auto;
     height: 20px;
     width: 100%;
+}
+
+img#responsive {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    img#responsive {
+        display: block;
+    }
+
+    img#img_origin {
+        display: none;
+    }
 }
 
