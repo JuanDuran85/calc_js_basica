@@ -12,7 +12,8 @@
 	position: relative;
 	width: 100%;
 	height: auto;
-	margin: auto; 
+    margin: auto; 
+    border: 2px solid black;
 }
 
 header{
